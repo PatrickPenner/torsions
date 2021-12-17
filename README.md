@@ -1,3 +1,13 @@
+# Torsions
+
+The torsions server is a wrapper around the TorsionAnalyzer commandline application and is its intermediary into the 
+web. It consists of a django backend server with infrastructure to run asynchornous jobs on a redis cluster, as well as
+various management functionality for Torsion Library and TorsionAnalyzer data. More information can be found in the
+following publication:
+
+Patrick Penner, Wolfgang Guba, Robert Schmidt, Agnes Meyder, Martin Stahl, and Matthias Rarey. (submitted).
+The Torsion Library: Semi-automated Improvement of Torsion Rules with SMARTScompare.
+
 # Setup
 
 Get python dependencies with [conda](https://docs.conda.io/en/latest/miniconda.html).
