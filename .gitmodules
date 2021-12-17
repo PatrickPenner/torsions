@@ -1,0 +1,3 @@
+[submodule "static/torsions_frontend"]
+	path = static/torsions_frontend
+	url = git@github.com:PatrickPenner/torsions_frontend.git
